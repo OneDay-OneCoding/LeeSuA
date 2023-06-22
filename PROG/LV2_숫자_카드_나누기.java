@@ -69,7 +69,7 @@ class Solution {
 
         Loop1:for(int i = 0; i < divideB.size(); i++){
             for(int j = 0; j < arrayA.length; j++){
-                if(arrayA[i]%divideB.get(i) == 0) continue Loop1;
+                if(arrayA[j]%divideB.get(i) == 0) continue Loop1;
             }
             if(answer < divideB.get(i)) answer = divideB.get(i);
             break;
